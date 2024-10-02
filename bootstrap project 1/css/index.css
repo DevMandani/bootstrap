@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --secondary:rgba(255, 255, 255, .7);
+    --white:#ffffff;
+}
+.text-color{
+    color: var(--secondary);
+}
+
+.text-color:hover{
+    color: var(--white);
+}
+.dropdown-item:hover{
+     background-color: black; 
+
+}
+.slid-img{
+    position: relative;
+}
+.slider-image{
+    animation: all 1s;
+}
+.slid-img:before{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 100%;
+   
+}
+.slid-img:hover::before{
+
+  
+    background-image: linear-gradient(#ffffff00, #21252959)
+    
+}
+.fa-heart{
+    color: #ffcc00;
+    font-size: 15px;
+}
