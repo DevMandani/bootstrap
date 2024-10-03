@@ -267,7 +267,10 @@
                                 <div class="slid-img">
 
                                     <img src="img/dinner1.png" class="img-fluid " alt="">
-                                  
+                                    <div class="dinner-text">
+                                        <p class="fs-3 fw-bold  px-3 ">SPIECY CHICKEN<BR/> SPAGHETTY</p>
+                                        <p class="p-bottom-3 px-3">Served with green chillies</p>
+                                    </div>
                                 </div>
                         </div>
                     </div>
@@ -276,7 +279,12 @@
                             <div class="slid-img">
 
                                 <img src="img/dinner2.png" class="img-fluid " alt="">
+                                <div class="dinner-text">
+                                    <p class="fs-3 fw-bold  px-3 ">BLUEBERRY MILK<BR/> SMOOTHY</p>
+                                    <p class="p-bottom-3 px-3">With fresh papermint</p>
+                                </div>
                             </div>
+                            
                         </div>
                     </div>
                     <div>
@@ -284,7 +292,12 @@
                                 <div class="slid-img">
 
                                     <img src="img/sec.jpg" alt="" class="img-fluid ">
+                                    <div class="dinner-text">
+                                        <p class="fs-3 fw-bold  px-3 ">COLD MILK <BR/> SHAKE</p>
+                                        <p class="p-bottom-3 px-3">With fresh milk</p>
+                                    </div>
                                 </div>
+                           
                         </div>
                     </div>
                     <div>
@@ -292,6 +305,10 @@
                                 <div class="slid-img">
 
                                     <img src="img/dinner4.png" alt="" class="img-fluid ">
+                                    <div class="dinner-text">
+                                        <p class="fs-3 fw-bold  px-3 ">SMOKED BEEF <BR/>SUB-SANDWITCH</p>
+                                        <p class="p-bottom-3 px-3">Slow cooked beef sub</p>
+                                    </div>
                                 </div>
                         </div>
                     </div>
@@ -300,6 +317,10 @@
                                 <div class="slid-img">
 
                                     <img src="img/dinner5.png" alt="" class="img-fluid ">
+                                    <div class="dinner-text">
+                                        <p class="fs-3 fw-bold  px-3 ">PUMPKIN SPIECY <BR/>JUICE</p>
+                                        <p class="p-bottom-3 px-3">Chilled  drink with cinamen</p>
+                                    </div>
                                 </div>
                         </div>
                     </div>
@@ -315,7 +336,7 @@
         <div class="container-fluid bg-black">
             <div class="row">
                 <div class="col-12">
-                    <div class="border border-primary border-2 p-3">
+                    <div class=" border-2 p-3">
                         <p class="text-center text-secondary fs-6 fw-bold">Made With  By <i class="fa-solid fa-heart" ></i> <a href="" class="text-white text-decoration-underline fs-6">Themewagon</a></p>
                     </div>
                 </div>
@@ -336,6 +357,9 @@
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
+    autoplay:true,
+    autoplayduration:1000,
+    dots:false,
     responsive: [
       {
         breakpoint: 1024,
@@ -343,7 +367,7 @@
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
+         
         }
       },
       {

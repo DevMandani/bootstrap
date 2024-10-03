@@ -23,6 +23,7 @@
 }
 .slider-image{
     animation: all 1s;
+    position: relative;
 }
 .slid-img:before{
     content: "";
@@ -40,4 +41,35 @@
 .fa-heart{
     color: #ffcc00;
     font-size: 15px;
+}
+.dinner-text{
+    position: absolute;
+   bottom: 0;
+    z-index: 1000;
+    color:white;
+    display: none;
+}
+.slider-image :hover .dinner-text{
+    display: block;
+  
+}
+
+
+.slick-next:before {
+    content: '';
+    color:#ffcc00 !important  ;
+    font-size: 30px !important;
+
+}
+
+.slick-prev:before {
+    content: '';
+   
+    color:#ffcc00 !important  ;
+    font-size: 30px !important;
+ /* position: absolute;
+    left: 40px;
+    */
+    
+ 
 }
