@@ -73,3 +73,25 @@
     
  
 }
+ul{
+    list-style: none;
+}
+ul .footer-item:hover{
+    color:black;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.fa-facebook:hover{
+    color:rgb(216, 213, 213);
+}
+.fa-instagram:hover{
+    color:rgb(216, 213, 213);
+}
+.fa-google-plus-g:hover{
+    color:rgb(216, 213, 213);
+}
+.fa-twitter:hover{
+    color:rgb(216, 213, 213);
+}
