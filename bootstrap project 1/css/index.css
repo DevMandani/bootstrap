@@ -22,7 +22,7 @@
     position: relative;
 }
 .slider-image{
-    animation: all 1s;
+ 
     position: relative;
 }
 .slid-img:before{
@@ -35,7 +35,8 @@
 .slid-img:hover::before{
 
   
-    background-image: linear-gradient(#ffffff00, #21252959)
+    background-image: linear-gradient(#ffffff00, #21252959);
+
     
 }
 .fa-heart{
