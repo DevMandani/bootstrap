@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordion practice</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="accordion" id="one">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#first-open" >
+                                item1
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="first-open" data-bs-parent="#one"  >
+                            <div class="acordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, mollitia optio blanditiis assumenda consequatur voluptate exercitationem officiis eius molestiae tempora, praesentium explicabo. Recusandae harum obcaecati accusantium praesentium. Sed, minima nisi.
+                        </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#second-open" >
+                                item2
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="second-open" data-bs-parent="#one">
+                            <div class="acordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, mollitia optio blanditiis assumenda consequatur voluptate exercitationem officiis eius molestiae tempora, praesentium explicabo. Recusandae harum obcaecati accusantium praesentium. Sed, minima nisi.
+                        </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#third-open" data-bs-parent="#one">
+                                item3
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="third-open" data-bs-parent="#one">
+                            <div class="acordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, mollitia optio blanditiis assumenda consequatur voluptate exercitationem officiis eius molestiae tempora, praesentium explicabo. Recusandae harum obcaecati accusantium praesentium. Sed, minima nisi.
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="input-group my-3">
+                        <span class="input-group-text">👥</span>
+                        <div class="form-floating">
+                                <input type="text" class="form-control" id="floatname" placeholder="Enter name">
+                                <label for="floatname">Enter Name</label>
+                        </div>
+                    </div>
+                    <div class="input-group my-3">
+                        <span class="input-group-text"></span>
+                        <div class="form-floating">
+                                <input type="text" class="form-control" id="floatname" placeholder="Enter Number">
+                                <label for="floatname">Enter Number</label>
+                        </div>
+                    </div>
+                 
+                    <div class="input-group my-3">
+                        <span class="input-group-text">📧</span>
+                        <div class="form-floating">
+                                <input type="text" class="form-control" id="floatname" placeholder="Enter name">
+                                <label for="floatname">Enter Email</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-check form-switch">
+                        <label for="" class="form-check-label">checkbox</label>
+                       <input type="checkbox" class="form-check-input">
+                   </div>
+                    
+
+                   <div class="form-check form-btn">
+                    <label for="" class="form-check-label">checkbox</label>
+                   <input type="checkbox" class="form-check-input">
+               </div>
+
+               <div class="form-check">
+                <input type="radio" class="btn-check" id="checkbtn1" name="check" >
+                <label for="checkbtn1" class="btn btn-outline-success">click1</label>
+
+                <input type="radio" class="btn-check" id="checkbtn2" name="check" >
+                <label for="checkbtn2" class="btn btn-outline-success">click2</label>
+
+                <input type="radio" class="btn-check" id="checkbtn3" name="check" >
+                <label for="checkbtn3" class="btn btn-outline-success">click3</label>
+            </div>
+           
+
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
