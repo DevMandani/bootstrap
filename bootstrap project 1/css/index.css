@@ -96,3 +96,11 @@ a{
 .fa-twitter:hover{
     color:rgb(216, 213, 213);
 }
+
+
+@media(max-width:1600px){
+    .img-none{
+        display: none;
+    }
+   
+}
