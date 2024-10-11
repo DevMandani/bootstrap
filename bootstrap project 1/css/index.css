@@ -104,3 +104,22 @@ a{
     }
    
 }
+
+@media(max-width:992px){
+    .soup{
+        display: none;
+    }
+}
+.ri-chat-quote-line{
+    border:none !important;
+    font-size: 30px 
+    !important;
+}
+
+
+.text-color-new{
+    color: #5e6e82;
+}
+.soup-img{
+    width: 50% !important;
+}
