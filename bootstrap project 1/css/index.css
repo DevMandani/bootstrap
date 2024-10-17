@@ -109,6 +109,18 @@ a{
     .soup{
         display: none;
     }
+    
+}
+
+@media(max-width:992px){
+    .fries{
+        display: none;
+    }
+    .fries-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .ri-chat-quote-line{
     border:none !important;
@@ -131,4 +143,7 @@ a{
 
 .padding-imp{
     padding-top: 0px !important;
+}
+.new-hover.hover{
+    color:black;
 }
