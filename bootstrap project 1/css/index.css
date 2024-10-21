@@ -116,11 +116,7 @@ a{
     .fries{
         display: none;
     }
-    .fries-text{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  
 }
 .ri-chat-quote-line{
     border:none !important;
@@ -146,4 +142,8 @@ a{
 }
 .new-hover.hover{
     color:black;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
 }
